@@ -17,4 +17,4 @@ print("timearg %s, numArgs %s\n" % (timeArg, str(numArgs)))
 
 tim = pendulum.parse(timeArg)
 
-#print(tim.astimezone(pendulum.local_timezone()))
+print(tim.astimezone(pendulum.local_timezone()))
