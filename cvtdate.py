@@ -3,7 +3,7 @@
 import sys
 import pendulum
 
-timeArg = sys.argv[0]
+timeArg = "(none)"
 numArgs = len(sys.argv)
 
 print("timearg %s, numArgs %s\n" % (timeArg, str(numArgs)))
