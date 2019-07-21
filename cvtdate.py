@@ -4,6 +4,7 @@ import sys
 import pendulum
 
 timeArg = sys.argv[0]
+numArgs = len(sys.argv)
 
 print(timeArg)
 
