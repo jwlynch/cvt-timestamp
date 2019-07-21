@@ -15,6 +15,6 @@ else:
 
 print("timearg %s, numArgs %s\n" % (timeArg, str(numArgs)))
 
-tim = pendulum.parse("2019-07-15 16:10:18Z")
+tim = pendulum.parse(timeArg)
 
 #print(tim.astimezone(pendulum.local_timezone()))
